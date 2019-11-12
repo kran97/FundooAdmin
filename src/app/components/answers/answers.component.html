@@ -1,0 +1,8 @@
+<div *ngFor="let answer of qaDetails">
+  <div *ngIf="answer.isApproved==false">
+    <p [innerHTML]="answer.message"></p>
+    <button type="button" class="btn btn-light pull-right" id="approveBtn" (click)="approve(answer.id)">Approve</button>
+    <button type="button" class="btn btn-light pull-right" id="rejectBtn" (click)="reject(answer.id)">Reject</button>
+    <hr>
+  </div>
+</div>

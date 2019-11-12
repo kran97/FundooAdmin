@@ -1,0 +1,55 @@
+<!-- <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+    <ul class="navbar-nav navbar-fixed-top navbar-right">
+      <li class="nav-item">
+  
+        <a class="navbar-brand" href="#">
+          <img src="../../../assets/google-keep-2-569459.png" alt="Logo" style="width:40px;">FundooApp Admin
+        </a>
+      </li>
+      <div class=buttons>
+        <button type="button" class="btn btn-light pull-right" id="logoutBtn" (click)="OnLogout()">Logout</button>
+        <button type="button" class="btn btn-light pull-left" id="answerBtn" (click)="gotoAnswers()">Unapproved
+          Answers</button>
+      </div>
+    </ul>
+  </nav> -->
+
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title align-items-center d-flex justify-content-center">Advance Users</h5>
+            <p class="card-text align-items-center d-flex justify-content-center" id="countAdvance"></p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title align-items-center d-flex justify-content-center">Basic Users</h5>
+            <p class="card-text align-items-center d-flex justify-content-center" id="countBasic"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <br>
+  
+    <div class="table-responsive-sm d-flex">
+  
+      <table class="table table-bordered" id="user_table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">no.</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Service</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+  </div>
